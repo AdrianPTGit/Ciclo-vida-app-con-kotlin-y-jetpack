@@ -8,9 +8,9 @@
 
 3. Muestra los estados en **Logcat**. Para ello se utiliza el comando:
 
-- Log.d(tag: String, msg: String)   , siendo:
-- tag  ->  Una cadena corta que identifica el origen del mensaje (por ejemplo, el nombre de tu clase o módulo).
-- msg ->  El mensaje que quieres mostrar en el Logcat.
+- `Log.d(tag: String, msg: String)`, siendo:
+- `tag`  ->  Una cadena corta que identifica el origen del mensaje (por ejemplo, el nombre de tu clase o módulo).
+- `msg` ->  El mensaje que quieres mostrar en el Logcat.
 
 4. Copia el siguiente código en tu editor de Android Studio
 ```kotlin
@@ -39,5 +39,5 @@ class MainActivity : ComponentActivity(), DefaultLifecycleObserver {
 
 
 ```
-5. Sobrescribe los métodos de los principales estados . En cada método utiliza Log.d para mostrar un mensaje indicando el estado en el que se encuentra la aplicacion.
+5. Sobrescribe los métodos de los principales estados . En cada método utiliza `Log.d` para mostrar un mensaje indicando el estado en el que se encuentra la aplicacion.
 6. Ejecuta la aplicación para ver el resultado
